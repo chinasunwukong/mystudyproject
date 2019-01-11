@@ -1,11 +1,11 @@
 package com.experiment.bean;
 
 public class DataInfo {
-    public String name;
+    public String fieldName;
     public String type;
 
-    public DataInfo(String name,String type) {
-        this.name=name;
+    public DataInfo(String fieldName,String type) {
+        this.fieldName=fieldName;
         this.type=type;
     }
 }

@@ -3,6 +3,7 @@ package com.example.baiting.myapplication.bean;
 
 import com.example.baiting.myapplication.R;
 import com.experiment.bean.DataInfo;
+import com.experiment.bean.PrimaryDataInfo;
 import com.experiment.bean.ViewInfos;
 import com.experiment.interfaces.Configuration;
 
@@ -14,9 +15,11 @@ import java.util.Map;
 public class MVVMActivityConfiguration implements Configuration {
 
     private Map<DataInfo, List<ViewInfos>> map;
+    private Map<PrimaryDataInfo,List<ViewInfos>> primaryMap;
 
     public MVVMActivityConfiguration() {
         map=new HashMap<>();
+        primaryMap=new HashMap<>();
     }
 
 
@@ -41,6 +44,19 @@ public class MVVMActivityConfiguration implements Configuration {
                 imgResInfos);
 
         return map;
+    }
+
+    @Override
+    public Map<PrimaryDataInfo, List<ViewInfos>> getPrimaryRelectMap() {
+        PrimaryDataInfo visibleData=new PrimaryDataInfo("flag",Boolean.class);
+        List<ViewInfos> textInfoLists=new ArrayList<>();
+        textInfoLists.add(new ViewInfos("TextView",
+                R.id.txt_showname,"visible"));
+        textInfoLists.add(new ViewInfos("ImageView",
+                R.id.img_show,"visible"));
+
+        primaryMap.put(visibleData,textInfoLists);
+        return primaryMap;
     }
 
 

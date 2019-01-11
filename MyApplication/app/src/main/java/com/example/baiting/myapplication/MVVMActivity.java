@@ -12,30 +12,37 @@ import com.experiment.EnableConfiguration;
 import com.experiment.SpringMVVM;
 import com.experiment.interfaces.Controller;
 
-@EnableConfiguration(config=MVVMActivityConfiguration.class)
+@EnableConfiguration(config = MVVMActivityConfiguration.class)
 public class MVVMActivity extends Activity {
 
     private Controller mController;
+    private boolean flag = false;
+    private Handler mHandler = new Handler();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mvvm);
 
-        mController=SpringMVVM.getController(this);
+        mController = SpringMVVM.getController(this);
 
 
-        new Handler().postDelayed(new Runnable() {
+        mHandler.post(new Runnable() {
             @Override
             public void run() {
-                UserInfo info=new UserInfo();
-                info.username="bob";
-                info.imgRes=R.drawable.red_package_bg;
+                UserInfo info = new UserInfo();
+                info.username = "bob";
+                info.imgRes = R.drawable.red_package_bg;
                 mController.setState(info);
             }
-        },1000);
+        });
 
-
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mController.setState("flag",flag);
+            }
+        }, 1000);
 
 
     }
