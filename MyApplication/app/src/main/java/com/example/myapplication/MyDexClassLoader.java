@@ -1,4 +1,4 @@
-package com.example.baiting.myapplication;
+package com.example.myapplication;
 
 import android.util.Log;
 

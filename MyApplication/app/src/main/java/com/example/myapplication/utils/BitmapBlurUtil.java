@@ -1,4 +1,4 @@
-package com.example.baiting.myapplication.utils;
+package com.example.myapplication.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;

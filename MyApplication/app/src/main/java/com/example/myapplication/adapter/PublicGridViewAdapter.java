@@ -1,19 +1,17 @@
-package com.example.baiting.myapplication.adapter;
+package com.example.myapplication.adapter;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.content.Context;
-import android.support.v4.view.LayoutInflaterCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.example.baiting.myapplication.R;
+import com.example.myapplication.R;
 
 
 public class PublicGridViewAdapter extends BaseAdapter {

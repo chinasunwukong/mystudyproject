@@ -1,9 +1,12 @@
-package com.example.baiting.myapplication;
+package com.example.myapplication;
 
 import android.app.Application;
 import android.content.Context;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.ArrayMap;
 import android.util.Log;
+
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
@@ -67,6 +70,7 @@ public class BaseApplication extends Application {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private void replaceClassLoader() {
         String packageName = getPackageName();
         try {

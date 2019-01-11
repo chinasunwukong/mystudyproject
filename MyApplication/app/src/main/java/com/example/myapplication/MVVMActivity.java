@@ -1,13 +1,12 @@
-package com.example.baiting.myapplication;
+package com.example.myapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 
-
-import com.example.baiting.myapplication.bean.MVVMActivityConfiguration;
-import com.example.baiting.myapplication.bean.UserInfo;
+import com.example.myapplication.bean.MVVMActivityConfiguration;
+import com.example.myapplication.bean.UserInfo;
 import com.experiment.EnableConfiguration;
 import com.experiment.SpringMVVM;
 import com.experiment.interfaces.Controller;

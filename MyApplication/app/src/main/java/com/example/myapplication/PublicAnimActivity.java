@@ -1,15 +1,12 @@
-package com.example.baiting.myapplication;
+package com.example.myapplication;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
@@ -18,11 +15,9 @@ import android.view.animation.RotateAnimation;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 
-import com.example.baiting.myapplication.adapter.PublicGridViewAdapter;
-import com.example.baiting.myapplication.utils.BitmapBlurUtil;
-import com.example.baiting.myapplication.utils.BitmapUtils;
+import com.example.myapplication.adapter.PublicGridViewAdapter;
+
 
 public class PublicAnimActivity extends Activity {
 

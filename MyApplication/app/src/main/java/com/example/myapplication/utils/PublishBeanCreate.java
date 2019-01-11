@@ -1,8 +1,10 @@
-package com.example.baiting.myapplication.utils;
+package com.example.myapplication.utils;
 
-import com.example.baiting.myapplication.R;
-import com.example.baiting.myapplication.bean.HomePublishBean;
-import com.example.baiting.myapplication.bean.PublishBean;
+
+
+import com.example.myapplication.R;
+import com.example.myapplication.bean.HomePublishBean;
+import com.example.myapplication.bean.PublishBean;
 
 import java.util.ArrayList;
 

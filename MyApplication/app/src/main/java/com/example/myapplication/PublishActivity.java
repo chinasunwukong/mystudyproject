@@ -1,4 +1,4 @@
-package com.example.baiting.myapplication;
+package com.example.myapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,11 +14,12 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import com.example.baiting.myapplication.adapter.HomePublishAdapter;
-import com.example.baiting.myapplication.bean.PublishBean;
-import com.example.baiting.myapplication.utils.PublishBeanCreate;
+import com.example.myapplication.adapter.HomePublishAdapter;
+import com.example.myapplication.bean.PublishBean;
+import com.example.myapplication.utils.PublishBeanCreate;
 
 import java.util.ArrayList;
+
 
 public class PublishActivity extends Activity {
 

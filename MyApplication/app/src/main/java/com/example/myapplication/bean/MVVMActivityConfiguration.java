@@ -1,7 +1,7 @@
-package com.example.baiting.myapplication.bean;
+package com.example.myapplication.bean;
 
 
-import com.example.baiting.myapplication.R;
+import com.example.myapplication.R;
 import com.experiment.bean.DataInfo;
 import com.experiment.bean.PrimaryDataInfo;
 import com.experiment.bean.ViewInfos;

@@ -1,4 +1,4 @@
-package com.example.baiting.myapplication.bean;
+package com.example.myapplication.bean;
 
 
 import java.util.ArrayList;

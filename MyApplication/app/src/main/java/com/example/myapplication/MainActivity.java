@@ -1,4 +1,4 @@
-package com.example.baiting.myapplication;
+package com.example.myapplication;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.BindView;
-import com.example.baiting.myapplication.utils.BitmapUtils;
-import com.example.baiting.myapplication.utils.InjectHelper;
-import com.example.baiting.myapplication.utils.Magic;
+import com.example.myapplication.utils.BitmapUtils;
+import com.example.myapplication.utils.InjectHelper;
+import com.example.myapplication.utils.Magic;
 
 
 public class MainActivity extends AppCompatActivity {

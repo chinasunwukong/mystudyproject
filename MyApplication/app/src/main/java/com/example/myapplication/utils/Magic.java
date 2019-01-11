@@ -1,15 +1,14 @@
-package com.example.baiting.myapplication.utils;
+package com.example.myapplication.utils;
 
 import android.app.Activity;
 import android.app.Dialog;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.baiting.myapplication.R;
+import com.example.myapplication.R;
 
 
 /**

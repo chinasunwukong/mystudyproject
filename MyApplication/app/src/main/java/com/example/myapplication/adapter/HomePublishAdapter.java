@@ -1,28 +1,21 @@
-package com.example.baiting.myapplication.adapter;
+package com.example.myapplication.adapter;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
-import android.text.TextUtils;
-import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.example.baiting.myapplication.R;
-import com.example.baiting.myapplication.bean.HomePublishBean;
-import com.example.baiting.myapplication.bean.PublishBean;
-import com.example.baiting.myapplication.utils.WubaPersistentUtils;
+import com.example.myapplication.R;
+import com.example.myapplication.bean.HomePublishBean;
+import com.example.myapplication.bean.PublishBean;
+import com.example.myapplication.utils.WubaPersistentUtils;
 
 import java.util.ArrayList;
 
