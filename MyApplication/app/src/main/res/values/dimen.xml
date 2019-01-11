@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="magic_bg_height">250dp</dimen>
+    <dimen name="publish_control_height">63dp</dimen>
+    <dimen name="publish_dip_height">63dip</dimen>
+    <dimen name="publish_item_height">105dip</dimen>
+
+</resources>
