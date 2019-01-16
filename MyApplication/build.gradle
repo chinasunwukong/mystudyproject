@@ -3,8 +3,12 @@
 buildscript {
     
     repositories {
+        mavenLocal()
         google()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url "http://nexus2.tingyun.com/nexus/content/repositories/snapshots/" }
         jcenter()
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'
@@ -17,7 +21,10 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenLocal()
         google()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url "http://nexus2.tingyun.com/nexus/content/repositories/snapshots/" }
         jcenter()
     }
 }

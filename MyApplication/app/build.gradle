@@ -27,7 +27,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 
     annotationProcessor project(':java_compile')
-    compile project(':annotation')
+    api project(':annotation')
 
 }
 
