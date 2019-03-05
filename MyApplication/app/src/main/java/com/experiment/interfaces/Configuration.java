@@ -16,5 +16,6 @@ public interface Configuration {
 
     Map<PrimaryDataInfo,List<ViewInfos>> getPrimaryRelectMap();
 
+    void bindClick(ViewInfos infos);
 
 }
